@@ -29,15 +29,15 @@
 		<!-- Logo and responsive toggle -->
 		<div class="navbar-header">
 			<a class="navbar-brand" href="/"> <span
-				class="glyphicon glyphicon-fire"></span> Book Application
+				class="glyphicon glyphicon"></span> Book Application
 			</a>
 		</div>
 		<!-- Navbar links -->
 		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="/">Home</a></li>
+				<li ><a href="/">Home</a></li>
 				<c:if test="${!empty LOGGED_IN_USER}">
-					<li class="nav-item"><a class="nav-link"> Welcome
+					<li class="nav-item"><a class= "nav-link"> Welcome
 							${LOGGED_IN_USER.name} </a></li>
 					<li class="nav-item"><a class="nav-link" href="/books">List
 							Books</a></li>
@@ -52,7 +52,6 @@
 					<li><a href="../users/register">Signup</a></li>
 					<li><a href="../users/login">Signin</a></li>
 				</c:if>
-				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

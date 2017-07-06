@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: yellowgreen;
+    color: #804040;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -27,7 +27,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: yellowgreen;
+    color: #804040;
     background-image: url('../images/header.jpg');
     background-position: center;
     -webkit-background-size: cover;
@@ -368,7 +368,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary .badge {
-    color: yellowgreen;
+    color: #804040;
     background-color: #fff;
 }
 
@@ -409,5 +409,5 @@ img::-moz-selection {
 }
 
 .bg-primary {
-    background-color: yellowgreen;
+    background-color: #804040;
 }
