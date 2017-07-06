@@ -29,6 +29,8 @@ public class AuthorController {
 		LOGGER.info("Entering Login " + email + "-"+ password );
 		LOGGER.debug(new Object[] { email, password });
 
+		
+		
 		User user = userService.findEmailidAndPassword(email, password);
 		LOGGER.info("User:" + user);
 		if (user != null) {
@@ -41,6 +43,8 @@ public class AuthorController {
 			return "redirect:../index.jsp";
 		}
 	}
+	
+	
 	@GetMapping("/logout")
 	public String logout(HttpSession session) {
 		session.invalidate();
