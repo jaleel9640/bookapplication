@@ -23,7 +23,7 @@
                 <div class="col-sm-6">
                 	<h2 class="section-header">Core Java</h2>
                 	<p class="lead text-muted">Java is a programming language and computing platform first released by Sun Microsystems in 1995. Java is fast, secure, and reliable.</p>
-                	<a href="#" class="btn btn-primary btn-lg">shop now</a>
+                	<a href="#" class="btn btn-danger btn-lg">Shop now</a>
                 </div>                
                 
             </div>
